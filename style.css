@@ -39,6 +39,7 @@
 
 .col-md-3 {
     width: 25%;
+    float: left;
 }
 
 .logo {
@@ -199,5 +200,124 @@
     background: linear-gradient(to bottom,white, #cbc3c3);
     color: #ff7700;
 }
+
+
+/* Items container formatting */
+
+.items-container {
+    width: 100%;
+    padding: 15px;
+}
+
+.item {
+    padding: 10px;
+    border: 1px solid #d6d6d6;
+    background-image: linear-gradient(white 90%, hsl(0, 0%, 90%));
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+.item-image {
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;  
+}
+
+.frst {
+    background-image: url(/other-site/images/1.png);
+} 
+
+.description {
+    line-height: 35px;
+    border-bottom: 1px solid #d6d6d6;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    color: #979393;
+    position: relative;
+}
+
+.favourite {
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    background-image: url(images/favourite-icon.png);
+    background-size: contain;
+    border: none;
+}
+
+.share {
+    padding-left: 40px;
+    line-height: 35px;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    color: #979393;
+    position: relative;
+}
+
+.twitter {
+    display: block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 5px;
+    right: 78px;
+    background-image: url(images/twitter-icon.png);
+    background-size: contain;
+    border: none;
+}
+
+.fb {
+    display: block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 5px;
+    right: 53px;
+    background-image: url(images/fb-icon.png);
+    background-size: contain;
+    border: none;
+}
+
+.pin {
+    display: block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 5px;
+    right: 28px;
+    background-image: url(images/pin-icon.png);
+    background-size: contain;
+    border: none;
+}
+
+.telegram {
+    display: block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 5px;
+    right: 2px;
+    background-image: url(images/telegram-icon.png);
+    background-size: contain;
+    border: none;
+}
+
+.scnd {
+    background-image: url(images/2.png);
+}
+
+.thrd {
+    background-image: url(images/3.png);
+}
+
+.frth {
+    background-image: url(images/4.png);
+}
+
 
 
