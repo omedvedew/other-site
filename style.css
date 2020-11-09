@@ -114,4 +114,90 @@
 .menu li:hover {
     background: linear-gradient(to bottom,white, #cbc3c3);
     border-bottom: 5px solid #ff7700;
+    height: 120px;
 }
+
+
+/* Main-formatting */
+
+.upload-container {
+    height: 190px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.upload-container h2 {
+    margin-top: 35px;
+    margin-bottom: 30px;
+    font-family: Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #565555;
+}
+
+.col-md-75 {
+    width: 75%;
+    float: left;
+}
+
+.row:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col-md-25 {
+    width: 25%;
+    float: left;
+}
+
+.browse-field {
+    border: 1px solid #cacaca;
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #cacaca, white 20%);
+}
+
+.browse {
+    height: 30px;
+    width: 95px;
+    position: absolute;
+    right: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #c1bfbf;
+    border: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.browse:focus {
+    outline: none;
+    background: linear-gradient(to bottom,white, #cbc3c3);
+    color: #ff7700;
+}
+
+.upload {
+    height: 50px;
+    width: 100%;
+    margin-left: 15px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #ffa300, #ff6800);
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+
+.upload:focus {
+    outline: none;
+    background: linear-gradient(to bottom,white, #cbc3c3);
+    color: #ff7700;
+}
+
+
