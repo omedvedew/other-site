@@ -63,7 +63,55 @@
 }
 .menu li {
     float: left;
-    text-align: center;
-    line-height: 120px;
+    border-right: 1px solid #cfcfcf;
+    position: relative;
+}
+
+.menu li:last-child {
+    border: none;
+}
+
+.img {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.home {
+    background-image: url(images/home-icon.png );
+}
+
+.gallery {
+    background-image: url(images/gallery-icon.png);
+}
+
+.members {
+    background-image: url(images/members-icon.png);
+}
+
+.logout {
+    background-image: url(images/logout-icon.png);
+}
+
+.menu a {
     font-family: Helvetica, sans-serif;
+    display: block;
+    height: 120px;
+    text-align: center;
+    line-height: 90px;
+    padding-top: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu li:hover {
+    background: linear-gradient(to bottom,white, #cbc3c3);
+    border-bottom: 5px solid #ff7700;
 }
